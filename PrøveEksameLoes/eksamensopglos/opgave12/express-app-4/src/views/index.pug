@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        script(src="index.js" defer)
+        link(rel="stylesheet" href="index.css")
+    body
+        h1 Employees
+        table
+            thead
+                tr
+                    th Name
+                    th Department
+
+            tbody#tbody
+                each employee in employees
+                    tr(id=employee.id)
+                        td #{employee.name}
+                        td #{employee.department}

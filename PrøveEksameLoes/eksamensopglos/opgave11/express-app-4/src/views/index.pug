@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        script(src="index.js" defer)
+        link(rel="stylesheet" href="index.css")
+    body
+        h1 classes
+        ul#classes
+            each clazz in classes
+                li(id=clazz.id) #{clazz.name}
+        h1 students
+        ul#students
+
+

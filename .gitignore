@@ -1,0 +1,19 @@
+# Project exclude paths
+/Lektion5_Events_WorkerThreads/node_modules/
+/Lektion13_Server_NODE_EXPRESS/13.1/13.1/node_modules/
+/Lektion13_Server_NODE_EXPRESS/13.2/node_modules/
+/Lektion13_Server_NODE_EXPRESS/13.3/node_modules/
+/Lektion13_Server_NODE_EXPRESS/nyt/node_modules/
+/Lektion13_Server_NODE_EXPRESS/simpleServer/node_modules/
+/Lektion13_Server_NODE_EXPRESS/userServer/node_modules/
+/Lektion15_loginPug_JestTest/loginpug/node_modules/
+/Lektion17_Firebase/pugFinal/node_modules/
+/Lektion18_Express/express-app-3/express-app-3/node_modules/
+/Lektion18_Express/express-app-3/express-app-3/node_modules/assert-never/index.d.ts
+/Lektion18_Express/express-app-3/express-app-3/node_modules/assert-never/index.js
+/Lektion18_Express/express-app-3/node_modules/
+/Lektion18_Express/express-app-3/node_modules/assert-never/index.d.ts
+/Lektion18_Express/express-app-3/node_modules/assert-never/index.js
+/Lektion18_Express/express-app-4/node_modules/
+/Lektion18_Express/express-app-4/node_modules/assert-never/index.d.ts
+/Lektion18_Express/express-app-4/node_modules/assert-never/index.js

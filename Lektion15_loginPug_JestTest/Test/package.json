@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.0",
+    "node-fetch": "^3.2.3",
+    "should": "^13.2.3",
+    "supertest": "^5.0.0"
+  }
+}

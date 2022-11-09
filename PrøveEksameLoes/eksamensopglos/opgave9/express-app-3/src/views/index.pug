@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        script(src="index.js" defer)
+
+
+    body
+        h1 Assignment List
+        ul
+            each assignment in assignments
+                li #{assignment}
+        label count
+        input#count(readonly value=assignments.length)
+        br
+        label new Assignment
+        input#inp
+        button#add Add Assignment

@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        script(src="index.js" defer)
+        link(rel="stylesheet" href="index.css")
+    body
+        h1 Departments
+        ul#deps
+            each department in departments
+                li(id=department.id) #{department.name}
+
+        h1 Employees
+        ul#emps
